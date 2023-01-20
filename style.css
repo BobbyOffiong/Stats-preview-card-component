@@ -54,10 +54,10 @@ span{
 .pic-div{
  width: 50%;  
  background-image: url(images/image-header-desktop.jpg);
- height: initial;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+background-size: cover;
+background-color: hsl(277, 64%, 61%);
+background-blend-mode: multiply;
+opacity: 0.8;
  border-top-right-radius: 2%;
  border-bottom-right-radius: 2%; 
 }
@@ -103,10 +103,10 @@ span{
         display: block;
         width: 80%;  
         background-image: url(images/image-header-mobile.jpg);
-        height: initial;
-        background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-color: hsl(277, 64%, 61%);
+        background-blend-mode: multiply;
+        opacity: 0.8;
         border-top-right-radius: 2%;
         border-top-left-radius: 2%; 
     }
